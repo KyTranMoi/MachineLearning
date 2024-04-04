@@ -1,0 +1,11 @@
+ 1. fraspm=0 33571 ==> dengl=0 33571    <conf:(1)> lift:(1.01) lev:(0.01) [462] conv:(462.34)
+ 2. pa=0 fraspm=0 33390 ==> dengl=0 33390    <conf:(1)> lift:(1.01) lev:(0.01) [459] conv:(459.84)
+ 3. lb=0 33348 ==> dengl=0 33288    <conf:(1)> lift:(1.01) lev:(0.01) [399] conv:(7.53)
+ 4. lb=0 pa=0 33167 ==> dengl=0 33107    <conf:(1)> lift:(1.01) lev:(0.01) [396] conv:(7.49)
+ 5. lb=0 nu=0 33118 ==> dengl=0 33058    <conf:(1)> lift:(1.01) lev:(0.01) [396] conv:(7.48)
+ 6. dengl=0 34302 ==> pa=0 34121    <conf:(0.99)> lift:(1) lev:(-0) [-2] conv:(0.98)
+ 7. nu=0 33802 ==> pa=0 33621    <conf:(0.99)> lift:(1) lev:(-0) [-5] conv:(0.97)
+ 8. dengl=0 nu=0 33601 ==> pa=0 33420    <conf:(0.99)> lift:(1) lev:(-0) [-6] conv:(0.96)
+ 9. fraspm=0 33571 ==> pa=0 33390    <conf:(0.99)> lift:(1) lev:(-0) [-6] conv:(0.96)
+10. dengl=0 fraspm=0 33571 ==> pa=0 33390    <conf:(0.99)> lift:(1) lev:(-0) [-6] conv:(0.96)
+

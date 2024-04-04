@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- CSS -->
+<style>
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px; /* Điều chỉnh chiều cao theo ý muốn của bạn */
+    }
+
+    .logo-login-main {
+        text-align: center;
+    }
+
+    .logo-login-main img {
+        max-height: 100%; /* Đảm bảo hình ảnh không vượt quá chiều cao của cha */
+        max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của cha */
+    }
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý thông tin</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #777;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+
+<header class="header" style="background: #ffffff;">
+    <div class="container">
+        <div class="logo-login-main text-center">
+                <a href="/"><img src="https://media.iuh.edu.vn/Media/2_sviuh/Images/logo-svd516f114-e-e.png"></a>
+        </div>
+    </div>
+<div style="clear:both;"></div>
+
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý thông tin</title>
+</head>
+<body>
+    <h1>Quản lý thông tin</h1>
+    <form action="/add_student" method="post">
+        <h2>Thêm sinh viên</h2>
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="age">Tuổi:</label>
+        <input type="text" id="age" name="age" required>
+    
+        <label for="program">Chương trình học:</label>
+        <input type="text" id="program" name="program" required>
+    
+        <label for="year">Năm sinh:</label>
+        <input type="text" id="year" name="year" required>
+    
+        <label for="fee">Học phí:</label>
+        <input type="text" id="fee" name="fee" required>
+    
+        <input type="submit" value="Thêm">
+        
+
+    </form>
+    
+    <form action="/add_staff" method="post">
+        <h2>Thêm nhân viên</h2>
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Tuổi:</label>
+        <input type="text" id="age" name="age" required>
+
+        <label for="school">Tên trường:</label>
+        <input type="text" id="school" name="school" required>
+
+        <label for="pay">Pay:</label>
+        <input type="text" id="pay" name="pay" required>
+        <input type="submit" value="Thêm">
+    
+    </form>
+
+    <form action="/search_student" method="post">
+        <h2>Tìm kiếm sinh viên</h2>
+        <label for="search_name">Nhập tên cần tìm kiếm:</label>
+        <input type="text" id="search_name" name="search_name" required>
+        <input type="submit" value="Tìm kiếm">
+    
+    </form>
+</body>
+</html>
